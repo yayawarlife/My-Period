@@ -2,7 +2,7 @@
 
 A simple period tracker that shows where you are in your cycle, predicts your next period, and helps you spot patterns in symptoms and mood. No account, no ads, and your data never leaves your device.
 
-**[Try the live app →](https://YOUR-USERNAME.github.io/period-tracker/)**
+**[Try the live app →](https://yayawarlife.github.io/My-Period/)**
 
 ![Log page with the cycle ring and daily log](screenshots/log.png)
 
@@ -74,4 +74,4 @@ This app gives estimates based on past cycles and general information about the 
 
 ---
 
-Built by Priyanka (https://www.linkedin.com/in/dwivedi96/)
+Built by [Priyanka](https://www.linkedin.com/in/dwivedi96/)
