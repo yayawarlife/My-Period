@@ -33,13 +33,11 @@ The app has three pages.
 **Learn.** Plain-language definitions of each phase, the fertile window, cycle length and period length, how the predictions are calculated, and when to talk to a doctor.
 
 | Calendar & insights | Learn (mobile) | Dark mode |
-|---|---|---|
 | ![](screenshots/calendar.png) | ![](screenshots/learn-mobile.png) | ![](screenshots/calendar-dark-mobile.png) |
 
 ## Key product decisions
 
 | Decision | Why | Trade-off |
-|---|---|---|
 | **Local-first, no account.** All data lives in the browser's local storage. | Removes the biggest privacy concern and the biggest sign-up drop-off at the same time. Nothing to breach, nothing to subpoena. | No sync across devices, and clearing browser data deletes the history. Export and backup is the top item on the roadmap. |
 | **Tap days on/off instead of a start/end form.** | People often forget to log the end of a period, or log days late. Marking individual days is faster and forgiving. Days within two days of each other are grouped into one period automatically. | The grouping rule is a heuristic and could merge two close bleeding episodes. |
 | **Averages use the last 6 cycles and last 6 periods.** | Recent cycles predict the next one better than a lifetime average, and six is enough to smooth out one odd month. | A single unusual cycle still nudges the prediction. Gaps under 15 or over 60 days are excluded because they're usually a missed log, not a real cycle. |
@@ -76,4 +74,4 @@ This app gives estimates based on past cycles and general information about the 
 
 ---
 
-Built by [Your Name](https://www.linkedin.com/in/YOUR-PROFILE)
+Built by Priyanka (https://www.linkedin.com/in/dwivedi96/)
