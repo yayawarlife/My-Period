@@ -33,7 +33,7 @@ The app has three pages.
 **Learn.** Plain-language definitions of each phase, the fertile window, cycle length and period length, how the predictions are calculated, and when to talk to a doctor.
 
 | Calendar & insights | Learn (mobile) | Dark mode |
-| ![](screenshots/calendar.png) | ![](screenshots/learn-mobile.png) | ![](screenshots/calendar-dark-mobile.png) |
+| ![](calendar.png) | ![](learn-mobile.png) | ![](calendar-dark-mobile.png) |
 
 ## Key product decisions
 
