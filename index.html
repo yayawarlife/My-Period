@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Cycle — a private period tracker</title>
 <meta name="description" content="A simple, private period tracker. Log periods, symptoms and mood, see your cycle phases and predictions. Data never leaves your device.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23E0606A'/><g transform='translate(10 12) scale(.8)'><path d='M79.4 35A34 34 0 1 1 50 18' fill='none' stroke='white' stroke-width='11' stroke-linecap='round'/><g transform='translate(67 22.6)' fill='%23FFD6DE'><ellipse cy='-8.5' rx='6.5' ry='9.5'/><ellipse cy='-8.5' rx='6.5' ry='9.5' transform='rotate(72)'/><ellipse cy='-8.5' rx='6.5' ry='9.5' transform='rotate(144)'/><ellipse cy='-8.5' rx='6.5' ry='9.5' transform='rotate(216)'/><ellipse cy='-8.5' rx='6.5' ry='9.5' transform='rotate(288)'/></g><circle cx='67' cy='22.6' r='5' fill='%23F5B23E'/></g></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -84,7 +84,8 @@ main,.tabs{position:relative;z-index:1}
   .pill{width:auto;max-width:none}
   .pill a{flex:none;display:flex;align-items:center;gap:8px;padding:9px 18px;font-size:14px}
   .pill a svg{width:18px;height:18px}
-  .brand{display:block;margin-right:auto;font-family:"Instrument Serif",Georgia,serif;font-size:30px;color:var(--on-grad)}
+  .brand{display:flex;align-items:center;gap:10px;margin-right:auto;font-family:"Instrument Serif",Georgia,serif;font-size:30px;color:var(--on-grad)}
+  .brand .logo{width:38px;height:38px;flex:none}
 }
 
 .page{max-width:1040px;margin:0 auto;padding:24px 20px 32px}
@@ -246,7 +247,7 @@ textarea{width:100%;min-height:84px;resize:vertical;border:1px solid var(--line)
 </div>
 
 <nav class="tabs" aria-label="Pages">
-  <span class="brand">Cycle</span>
+  <span class="brand"><svg class="logo" viewBox="0 0 100 100" aria-hidden="true"><path d="M79.4 35A34 34 0 1 1 50 18" fill="none" stroke="currentColor" stroke-width="11" stroke-linecap="round"/><g transform="translate(67 22.6)" fill="#FFD6DE"><ellipse cy="-8.5" rx="6.5" ry="9.5"/><ellipse cy="-8.5" rx="6.5" ry="9.5" transform="rotate(72)"/><ellipse cy="-8.5" rx="6.5" ry="9.5" transform="rotate(144)"/><ellipse cy="-8.5" rx="6.5" ry="9.5" transform="rotate(216)"/><ellipse cy="-8.5" rx="6.5" ry="9.5" transform="rotate(288)"/></g><circle cx="67" cy="22.6" r="5" fill="#F5B23E"/></svg>Cycle</span>
   <div class="pill">
   <a href="#log" data-tab="log">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M12 3c3 4.2 6 7.6 6 11a6 6 0 0 1-12 0c0-3.4 3-6.8 6-11z"/></svg>
